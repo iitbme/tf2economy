@@ -1,1 +1,123 @@
-OK
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Don't buy keys for more or sell buds for less.">
+		<link rel="icon" href="http://media.steampowered.com/apps/tf2/blog/images/favicon.ico">
+		<title>TF2 Economy</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+
+<!--
+<div class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">TF2 Economy</a>
+		</div>
+		<div id="navbar" class="collapse navbar-collapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#about">About</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+-->
+
+<div class="container">
+
+	<h1 class="items-header">
+		TF2 Economy
+		<a class="pull-right" href="javascript:void(0);" onclick="googlePlusOne();" data-toggle="modal" data-target="#about">About</a>
+	</h1>
+
+	<div class="items clearfix">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="item">
+					<div class="item-image">
+						<img src="http://media.steampowered.com/apps/440/icons/pile_of_junk3_large.6ef29cbefd7f83a2759864f028f14bfbdb463f9d.png" class="img-responsive" alt="Refined Metal" title="Refined Metal" />
+					</div>
+					<div class="item-price text-center">
+						<h1 class="item-price-real">$0.20</h1>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="item">
+					<div class="item-image">
+						<img src="https://wiki.teamfortress.com/w/images/8/83/Backpack_Mann_Co._Supply_Crate_Key.png?t=20111120031029" class="img-responsive" alt="Mann Co. Supply Crate Key" title="Mann Co. Supply Crate Key" />
+					</div>
+					<div class="item-price text-center">
+						<h1 class="item-price-virtual">10 <small>Ref</small></h1>
+						<!-- <h1 class="item-price-real">$2</h1> -->
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="item">
+					<div class="item-image">
+						<img src="https://wiki.teamfortress.com/w/images/1/12/Backpack_Earbuds.png?t=20110424234419" class="img-responsive" alt="Earbuds" title="Earbuds" />
+					</div>
+					<div class="item-price text-center">
+						<h1 class="item-price-virtual">17 <small>Keys</small></h1>
+						<!-- <h1 class="item-price-real">$34</h1> -->
+					</div>
+				</div>
+			</div>
+		</div><!-- /.row -->
+		<hr />
+		<p class="lead text-center">Don't buy keys for more or sell buds for less.</p>
+	</div><!-- /.items -->
+
+</div><!-- /.container -->
+
+<div id="about" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title">About this site</h4>
+			</div>
+			<div class="modal-body">
+				<h4>What is this?</h4>
+				<p>This site is created to prevent TF2 economy from crashing. Instead of using price values that change frequently, traders can now follow a fixed price for currency items.</p>
+				<br />
+				<h4>Why fix prices?</h4>
+				<p>No one wants key prices to go up and buds or refined value to drop. It is not the fault of community sites that reflect the market value. It is because of the traders that these price changes are happening. Dropping prices creates panic among sellers and they further drop the price ending up in a loop of price drop. Follow these fixed prices to break that loop.</p>
+			</div>
+			<div class="modal-footer">
+				<div class="g-plusone" data-annotation="inline" data-href="http://tf2economy.com" data-theme="dark"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+	var googlePlusOneFlag = false;
+	function googlePlusOne() {
+		if (googlePlusOneFlag) {
+			return;
+		}
+		var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+		po.src = 'https://apis.google.com/js/platform.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+		googlePlusOneFlag = true;
+	};
+</script>
+
+	</body>
+</html>
