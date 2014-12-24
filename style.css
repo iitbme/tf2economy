@@ -1,0 +1,129 @@
+body {
+	padding-top: 50px;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	background: url('http://steamcommunity-a.akamaihd.net/public/images/apphubs/blue_body_darker_repeat.jpg?v=1' ) center top repeat-y #000000;
+	background-color: #000000;
+	color: #acb2b8;
+	font-size: 14px;
+	cursor: default;
+}
+
+a, a:hover, a:focus {
+	color: #7cc5fb;
+}
+
+hr {
+	border-color: #000;
+	height: 2px;
+	background-color: #333;
+}
+
+.container {
+	max-width: 1000px;
+}
+
+.navbar-nav li a {
+	text-transform: uppercase;
+}
+
+.img-responsive {
+	width: 100%;
+}
+
+.items-header {
+	font-family: Impact, Charcoal, Arial, sans-serif;
+	font-weight: bold;
+	letter-spacing: 3px;
+	color: #fff;
+	padding: 35px 20px;
+	margin-bottom: 0;
+	text-transform: uppercase;
+	background-color: #46602A;
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		right bottom,
+		color-stop(0, #6C9541),
+		color-stop(0.5, #46602A)
+	);
+	background-image: -o-linear-gradient(right bottom, #6C9541 0%, #46602A 50%);
+	background-image: -moz-linear-gradient(right bottom, #6C9541 0%, #46602A 50%);
+	background-image: -webkit-linear-gradient(right bottom, #6C9541 0%, #46602A 50%);
+	background-image: -ms-linear-gradient(right bottom, #6C9541 0%, #46602A 50%);
+	background-image: linear-gradient(to right bottom, #6C9541 0%, #46602A 50%);
+}
+
+.items-header a {
+	color: #fff;
+	font: 14px/36px Arial, Helvetica, Verdana, sans-serif;
+	letter-spacing: normal;
+	outline: none;
+}
+
+.items {
+	background-color: #171717;
+	background: -moz-linear-gradient(-45deg, #1f1f1f 0%, #171717 33%);
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#1f1f1f), color-stop(33%,#171717));
+	background: -webkit-linear-gradient(-45deg, #1f1f1f 0%,#171717 33%);
+	background: -o-linear-gradient(-45deg, #1f1f1f 0%,#171717 33%);
+	background: -ms-linear-gradient(-45deg, #1f1f1f 0%,#171717 33%);
+	background: linear-gradient(135deg, #1f1f1f 0%,#171717 33%);
+	padding: 0 20px;
+	margin-bottom: 20px;
+}
+
+.item {
+	padding: 20px 0;
+}
+
+.item-image {
+	background: #111111;
+	-webkit-box-shadow: 0 0 14px #030303 inset;
+	-moz-box-shadow: 0 0 14px #030303 inset;
+	box-shadow: 0 0 14px #030303 inset;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.item-price, .item-price small {
+	color: #fff;
+}
+
+.item-price h1 {
+	margin-bottom: 0;
+}
+
+.item-price small {
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.items hr {
+	margin-top: 0;
+}
+
+.modal-backdrop.in {
+	opacity: 0.8;
+}
+
+.modal-content {
+	border: 2px solid #4b4b4b;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	background-color: #262627;
+}
+
+.modal-header, .modal-footer {
+	background-color: #4b4b4b;
+	border: none;
+}
+
+.modal-footer {
+	text-align: left;
+}
+
+.close, .close:hover, .close:focus {
+	color: #fff;
+	opacity: 1;
+}
