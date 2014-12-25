@@ -13,9 +13,9 @@ a, a:hover, a:focus {
 }
 
 hr {
-	border-color: #000;
-	height: 2px;
-	background-color: #333;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #303030;
+	height: 0px;
 }
 
 .container {
